@@ -39,6 +39,8 @@ fluid_inference
 
 编译`cmake`的命令在`scripts/build.sh`中，请根据实际情况修改主要参数，其主要内容说明如下：
 
+
+```shell
 # 是否使用GPU(即是否使用 CUDA)
 WITH_GPU=OFF
 # 使用MKL or openblas
