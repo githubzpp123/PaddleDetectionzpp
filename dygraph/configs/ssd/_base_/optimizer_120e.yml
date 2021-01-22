@@ -10,8 +10,8 @@ LearningRate:
 
 OptimizerBuilder:
   optimizer:
-    momentum: 0.0
-    type: RMSProp
+    momentum: 0.9
+    type: Momentum
   regularizer:
-    factor: 0.00005
+    factor: 0.0005
     type: L2

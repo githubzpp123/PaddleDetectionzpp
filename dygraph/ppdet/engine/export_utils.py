@@ -28,13 +28,13 @@ logger = setup_logger(__name__)
 # Global dictionary
 TRT_MIN_SUBGRAPH = {
     'YOLO': 3,
-    'SSD': 40,
+    'SSD': 3,
     'RCNN': 40,
     'RetinaNet': 40,
     'EfficientDet': 40,
     'Face': 3,
-    'TTFNet': 40,
-    'FCOS': 40,
+    'TTFNet': 3,
+    'FCOS': 3,
     'SOLOv2': 60,
 }
 
